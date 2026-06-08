@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mohak Choubey | C17</title>
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+
+<style>
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+
+
+body{
+
+    min-height:100vh;
+
+    background:#050816;
+
+    overflow-x:hidden;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:30px;
+
+    color:white;
+
+}
+
+
+
+.bg{
+
+    position:fixed;
+
+    inset:0;
+
+    overflow:hidden;
+
+    z-index:-1;
+
+}
+
+
+
+.orb{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    filter:blur(80px);
+
+    animation:float 10s infinite ease-in-out;
+
+}
+
+
+
+.orb:nth-child(1){
+
+    width:350px;
+
+    height:350px;
+
+    background:#0088ff55;
+
+    top:-50px;
+
+    left:-100px;
+
+}
+
+
+
+.orb:nth-child(2){
+
+    width:300px;
+
+    height:300px;
+
+    background:#7b2cff55;
+
+    bottom:-50px;
+
+    right:-100px;
+
+    animation-delay:2s;
+
+}
+
+
+
+@keyframes float{
+
+    50%{
+
+        transform:translateY(-40px) translateX(20px);
+
+    }
+
+}
+
+
+
+.card{
+
+    max-width:850px;
+
+    width:100%;
+
+    background:rgba(255,255,255,0.05);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,0.1);
+
+    border-radius:30px;
+
+    padding:50px;
+
+    animation:appear 1s ease;
+
+}
+
+
+
+@keyframes appear{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+
+.tag{
+
+    color:#5ab8ff;
+
+    letter-spacing:3px;
+
+    font-size:13px;
+
+    margin-bottom:10px;
+
+}
+
+
+
+h1{
+
+    font-size:3rem;
+
+    margin-bottom:10px;
+
+}
+
+
+
+.subtitle{
+
+    color:#b6b6b6;
+
+    margin-bottom:35px;
+
+    font-size:1.05rem;
+
+}
+
+
+
+p{
+
+    line-height:1.9;
+
+    color:#dddddd;
+
+    margin-bottom:18px;
+
+}
+
+
+
+.quote{
+
+    margin:30px 0;
+
+    padding-left:20px;
+
+    border-left:3px solid #5ab8ff;
+
+    color:white;
+
+}
+
+
+
+.btn{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    text-decoration:none;
+
+    color:white;
+
+    padding:14px 28px;
+
+    border-radius:50px;
+
+    background:linear-gradient(135deg,#0088ff,#6a00ff);
+
+    transition:.3s;
+
+}
+
+
+
+.btn:hover{
+
+    transform:translateY(-4px);
+
+}
+
+
+
+.footer{
+
+    margin-top:30px;
+
+    color:#888;
+
+    font-size:14px;
+
+}
+
+
+
+@media(max-width:768px){
+
+    .card{
+
+        padding:30px;
+
+    }
+
+
+
+    h1{
+
+        font-size:2.2rem;
+
+    }
+
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+
+<div class="bg">
+
+    <div class="orb"></div>
+
+    <div class="orb"></div>
+
+</div>
+
+
+
+<div class="card">
+
+
+
+<div class="tag">PERSONAL BIOGRAPHY</div>
+
+
+
+<h1>Mohak Choubey</h1>
+
+
+
+<div class="subtitle">
+
+Chasing dreams from C17 • Secret Code
+
+</div>
+
+
+
+<p>
+
+I'm Mohak — a student, developer, and creator.
+
+</p>
+
+
+
+<p>
+
+I spend most of my time building websites, exploring ideas, and turning concepts into things people can actually use.
+
+</p>
+
+
+
+<p>
+
+Outside of code, you'll usually find me behind a piano, editing videos, or learning something new.
+
+</p>
+
+
+
+<p>
+
+I left CN77 for C17.
+
+</p>
+
+
+
+<p>
+
+This page isn't meant to impress anyone.
+
+</p>
+
+
+
+<p>
+
+It's simply a small record of a journey that's still in progress.
+
+</p>
+
+
+
+<div class="quote">
+
+<p>Every project started as a thought.</p>
+
+<p>Every skill started as a mistake.</p>
+
+<p>Every result started as curiosity.</p>
+
+</div>
+
+
+
+<p>
+
+Thanks for reading.
+
+</p>
+
+
+
+<a href="https://mohakdev1220.github.io/websites_link" class="btn">
+
+Explore My Work (click)
+
+</a>
+
+
+
+<div class="footer">
+
+© C17 Archive
+
+</div>
+
+
+
+</div>
+
+
+
+</body>
+
+</html>
